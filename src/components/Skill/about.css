@@ -1,0 +1,96 @@
+#aboutMe{
+    font-size: 3rem;
+    text-align:center;
+    padding-bottom: 100px;
+}
+.main{
+    position:relative;
+}
+.container{
+    /* position:absolute; */
+    display:flex;
+    flex-direction: column;
+ 
+}
+.desc{
+    font-size: x-large;
+    letter-spacing: 1px;
+    width:50vw;
+   padding-left:5rem;
+   line-height: 1.5;
+   font-family: cursive;
+   color:cadetblue;
+}
+button{
+    margin:5px;
+    background-color: antiquewhite;
+    width:6rem;
+    height:2.5rem;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+.item1{
+    position:relative;
+    left:10vw;
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+.container1{
+    position:absolute;
+    right:0px;
+    width: 40vw;
+    top:30vh;
+line-height:4;
+letter-spacing:2px;
+margin-right:7rem;
+}
+.highlight{
+    color:rgb(219, 219, 38);
+}
+
+
+/* -----Tablet ---- */
+
+@media  screen and (max-width:768px) {
+    .container1{
+        position:relative;
+        float:right;
+        left:30rem;
+        line-height:2;
+        width:50vw;
+        top:-180vh;
+    }
+    .desc{
+        width:100%;
+        padding-right:3rem;
+    }
+    #aboutMe{
+        position:relative;
+        top:15vh;
+    }
+    .item1{
+        padding:2rem;
+    }
+    .contactSection{
+        width:100%;
+        min-width:71rem;
+    }
+    .navbar{
+        min-width:70rem;
+    }
+   
+}
+
+/* ------Mobile------ */
+
+@media screen and (max-width:480px){
+    .container1{
+        top:-180vh;
+        left:40rem;
+        margin-right:0;
+        min-width:20rem;
+    }
+    .container{
+        min-width:45rem;
+    }
+}

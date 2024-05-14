@@ -1,0 +1,77 @@
+.logo{
+height:5rem;
+margin:10px;
+}
+.navbar{
+    width: 100vw;
+    max-width:85rem;
+    margin:0 auto;
+    padding:1rem 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top:0;
+    z-index:3;
+    background-color: black;
+}
+.desktopMenuItem{
+    margin:1rem;
+  cursor: pointer;
+}
+.desktopMenuItem:hover{
+    color:bisque;
+    border-bottom: 3px solid red;
+    
+}
+.contactBtn{
+    background: white;
+    padding:0.5rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: small;
+}
+/* .active{
+    color:yellow;
+    border-bottom:1px solid yellow;
+} */
+.mobileMenu{
+    position:absolute;
+    top:6rem;
+    right:0.1rem;
+    z-index: 2;
+    display:flex;
+    flex-direction: column;
+    background: rgb(40,40,40);
+    padding:0.5rem;
+    height: fit-content;
+    min-width: 10rem;
+    border-radius: 1rem;
+}
+.mobileMenuItem{
+    padding:0.5rem 3rem;
+    margin:0.25rem;
+    color:white;
+    background: rgb(30,30,30);
+}
+.mobMenu{
+    display:none;
+}
+.mobileMenu{
+    display: none;
+}
+
+@media screen and (max-width:720px)  {
+  .mobMenu{
+    display:flex;
+  }  
+  .mobileMenu{
+    display:flex;
+  }
+  .desktopMenuItem{
+    display: none;
+  }
+  .contactBtn{
+    display:none;
+  }
+}

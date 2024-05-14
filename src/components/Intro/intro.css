@@ -1,0 +1,76 @@
+.profilePic{
+  height:70vh;
+}
+
+/* .name{
+    font-size: xx-large;
+} */
+.intro{
+    height:calc(100vh-4rem);
+    width:100vw;
+    max-width:75rem;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.profilePic{
+    position:absolute;
+    /* top:-4rem; */
+    top:8rem;
+    z-index:-1;
+right:0;
+margin-right:10rem;
+border-radius: 50%;;
+}
+.introContent{
+    height: 80vh;
+    width:100vw;
+    padding:3rem;
+    margin-left:2rem;
+    font-size:3rem;
+    font-weight: 700;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+.introName{
+    color:yellow;
+}
+.introPara{
+    font-size: medium;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.btn{
+    background: white;
+    width:fit-content;
+    margin:2rem;
+    padding:1rem;
+    border-radius:50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:840px){
+    .profilePic{
+        height:80vh;
+        position:absolute;
+        left:30rem;
+        margin-top: 50px;
+        
+    }
+   
+    .hello{
+        font-size: 4.5vw;
+    }
+}
+
+/* ------Mobile----- */
+@media screen and (max-width:480px){
+    .introText{
+        min-width:60rem;
+    }
+}

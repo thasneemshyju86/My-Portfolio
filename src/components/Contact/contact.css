@@ -1,0 +1,87 @@
+.contactSection{
+    /* position:relative;
+    top:160vh;
+    left:30vw; */
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:10vh;
+
+}
+.contact{
+    padding:2rem 2rem 1rem 2rem;
+    font-size:3rem;
+    margin-left:8vw;
+}
+.contactDesc{
+    padding:1rem;
+    font-size:larger;
+    line-height:3rem;
+    word-spacing:1px;
+    letter-spacing:1px;
+    margin-left:5vw;
+}
+.contactForm{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:50vh;
+    width:35vw;
+    margin-bottom:10vh;
+    /* margin-top:5vh; */
+}
+.name,.email,.msg{
+    font-size:medium;
+    width:125%;
+    max-width:40rem;
+    margin:0.5rem;
+    margin-right:5rem;
+    padding:1rem;
+    border:none;
+    background-color: rgb(40,40,40);
+    border-radius:0.5rem;
+    color:beige;
+}
+.submitBtn{
+    background: white;
+    border:none;
+    border-radius: 0.5rem;
+    margin:2rem;
+    text-align: center;
+    position:relative;
+    left:14vw;
+    margin-bottom:15px;
+    cursor:pointer;
+}
+.links{
+   
+   width:100%;
+   padding:2rem;
+   padding-top:1rem;
+   padding-bottom:1rem;
+   background-color:rgb(174, 174, 53);
+   
+}
+.linkedin,.github{
+    cursor: pointer;
+    margin-left:2rem;
+    /* position:absolute; */
+    float:right;
+    margin-right:2rem;
+    font-size: 2rem;
+}
+
+/* -----Tablet----- */
+@media screen and (max-width:768px){
+    .contactForm{
+        min-width:20rem;
+    }
+}
+
+/* --------Mobile---- */
+@media screen and (max-width:480px){
+    .contactForm{
+        min-width:20rem;
+    }
+}
