@@ -77,3 +77,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 --> react-icons ( github & linkedin) 
 
 -->emailjs (to link the contact form with email)
+
+You can access the website using this url : https://thasneeemshyju-portfolio.netlify.app/
