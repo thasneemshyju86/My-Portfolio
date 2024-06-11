@@ -8,6 +8,7 @@
 }
 .container{
     /* position:absolute; */
+    flex:1;
     display:flex;
     flex-direction: column;
  
@@ -18,15 +19,16 @@
     width:50vw;
    padding-left:5rem;
    line-height: 1.5;
-   font-family: cursive;
-   color:cadetblue;
+   font-family: Arial, Helvetica, sans-serif;
+   color:rgb(193, 209, 210);
 }
 button{
     margin:5px;
     background-color: antiquewhite;
     width:6rem;
     height:2.5rem;
-    font-weight:bold;
+    font-size:15px;
+    font-weight:600;
     letter-spacing: 1px;
 }
 .item1{
@@ -38,7 +40,7 @@ button{
 .container1{
     position:absolute;
     right:0px;
-    width: 40vw;
+    width: 35vw;
     top:30vh;
 line-height:4;
 letter-spacing:2px;

@@ -16,7 +16,7 @@
 }
 .contactDesc{
     padding:1rem;
-    font-size:larger;
+    font-size:25px;
     line-height:3rem;
     word-spacing:1px;
     letter-spacing:1px;
@@ -32,7 +32,7 @@
     /* margin-top:5vh; */
 }
 .name,.email,.msg{
-    font-size:medium;
+    font-size:20px;
     width:125%;
     max-width:40rem;
     margin:0.5rem;
@@ -45,6 +45,7 @@
 }
 .submitBtn{
     background: white;
+    color:black;
     border:none;
     border-radius: 0.5rem;
     margin:2rem;

@@ -18,6 +18,7 @@ margin:10px;
 .desktopMenuItem{
     margin:1rem;
   cursor: pointer;
+  font-size:25px;
 }
 .desktopMenuItem:hover{
     color:bisque;
@@ -53,6 +54,7 @@ margin:10px;
     margin:0.25rem;
     color:white;
     background: rgb(30,30,30);
+    height:50px;
 }
 .mobMenu{
     display:none;
@@ -64,6 +66,8 @@ margin:10px;
 @media screen and (max-width:720px)  {
   .mobMenu{
     display:flex;
+    height:120px;
+    width:50px;
   }  
   .mobileMenu{
     display:flex;

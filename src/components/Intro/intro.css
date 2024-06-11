@@ -41,9 +41,12 @@ border-radius: 50%;;
     color:yellow;
 }
 .introPara{
-    font-size: medium;
-    font-weight: 100;
+    font-size: 25px;
+    font-weight: 200;
     letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(193,209,210);
+    line-height: 1.5;
 }
 .btn{
     background: white;
