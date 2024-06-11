@@ -15,7 +15,7 @@ const Contact = ()=>{
         // emailjs.init('rx9tcgAk12EiCR6gx', SCOPES)
     
         emailjs
-          .sendForm('service_mg256d8', 'template_hkkulnk', form.current, {
+          .sendForm('service_536uc7l', 'template_hkkulnk', form.current, {
             publicKey: 'rx9tcgAk12EiCR6gx',
           })
           .then(
