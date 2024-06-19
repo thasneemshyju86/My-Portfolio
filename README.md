@@ -1,3 +1,7 @@
+# Live URL
+
+You can access the website using this url : https://thasneeemshyju-portfolio.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -78,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 -->emailjs (to link the contact form with email)
 
-You can access the website using this url : https://thasneeemshyju-portfolio.netlify.app/
+
