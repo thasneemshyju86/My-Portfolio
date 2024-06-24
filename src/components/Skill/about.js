@@ -15,8 +15,7 @@ const About = () => {
           <span class="highlight"> Bachelors in Computer Science</span> and got
           placed in Accenture through campus recruitment and had to drop my
           career for my family. I am a mom of 2, who spend most of the time for
-          the family but had a strong passion to learn and update myself and get
-          back to work.
+          the family but had a strong passion to learn and update myself.
           <br />
           <br />I specialize in
           <span class="highlight"> HTML,CSS & JavaScript</span>, with expertise
@@ -26,8 +25,7 @@ const About = () => {
             responsive design, cross-browser compatibility
           </span>
           , and version control systems like <span class="highlight">Git</span>.
-          I have had the pleasure of working on diverse projects, from creating
-          sleek landing pages to developing interactive webpages. I'm deeply
+          I'm deeply
           passionate about creating seamless digital experiences that delight
           users.
           <br />

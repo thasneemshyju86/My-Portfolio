@@ -79,3 +79,10 @@ margin:10px;
     display:none;
   }
 }
+
+/* -------Mobile view---- */
+@media screen and (max-width:480px){
+  .mobileMenu{
+    font-size: 30px;
+  }
+}
