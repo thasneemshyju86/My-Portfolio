@@ -119,4 +119,9 @@ margin-right:7rem;
     .container1 .item2{
         padding-bottom:50px;
     }
+    .container1 button{
+        height:4rem;
+        width:11rem;
+        font-size:22px;
+    }
 }
