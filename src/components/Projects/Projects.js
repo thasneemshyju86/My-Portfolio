@@ -14,7 +14,7 @@ const Projects=()=>{
             </div>
             <div className="todo">
                 <h2>To Do App</h2>
-                <img onClick={window.open("https://tstodo-app.netlify.app/")} src={todo} alt='' className="todo_img"/>
+                <img onClick={()=>window.open("https://tstodo-app.netlify.app/")} src={todo} alt='' className="todo_img"/>
             </div>
             </div>
         </div>
